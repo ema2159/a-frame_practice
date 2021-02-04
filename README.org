@@ -1,0 +1,35 @@
+#+TITLE: Project Work 1: A-frame
+#+CREATOR: Emmanuel Bustos T.
+#+OPTIONS: toc:nil
+
+* Description
+  This is a small practice to get familiar with the [[https://aframe.io/][A-frame]] 3D/AR/VR web framework. This is part of the Real Time 3D-XR Visualization course at the Université Jean Monnet.
+* Instructions
+  - Make sure you have installed npm's live server by running the command =npm install -g live-server=.
+  - Go to the =src/= directory.
+  - Run the =live-server= command.
+* Exercises:
+** Exercise 1
+   Build a 3D model of the head of Mickey Mouse which is only composed with several a-sphere and
+   basic transformations (position, scale, rotation)
+** Exercise 2
+   1. Recreate the earth with a sphere associated with the following texture “earth_4096.jpg”.
+   2. Place this earth above a pink plane on which it will cast a shadow.
+   3. What is happening if your use a box instead a sphere?
+      R/ The texture is being loaded in each of the box's faces.
+** Exercise 3
+   Add a pseudo moon as satellite of your earth (which will use the texture “moon_4096.jpg”). This
+   pseudo moon must be associated to the coordinate system of your earth. It is hierarchically dependent
+   to the earth (ie. when the earth turns on itself the moon follow this motion)
+** Exercise 4
+   1. Now you will animate this earth by making it turn on itself.
+   2. What is happing for the moon?
+      R/ See point 3.
+   3. Of course, your moon will also turn on itself
+** Exercise 5
+   Test the different lighting methods available in a-frame with the previous 3D visualization.
+   R/ In this case, a spot light was utilized for simulating the light of the sun.
+** Exercise 6
+   Place you head of Mickey Mouse on the surface of your moon which turn around the earth and on
+   itself.
+

@@ -12,7 +12,9 @@
 ** Exercise 1 - Simple Model
    Build a 3D model of the head of Mickey Mouse which is only composed with several a-sphere and
    basic transformations (position, scale, rotation)
+   
    [[./mickey.png]]
+   
 ** Exercise 2 - Texturing
    1. Recreate the earth with a sphere associated with the following texture “earth_4096.jpg”.
    2. Place this earth above a pink plane on which it will cast a shadow.
@@ -32,14 +34,21 @@
    Place you head of Mickey Mouse on the surface of your moon which turn around the earth and on itself.
 ** Exercise 7 - Robot Arm
    Build a robot arm like the one in the following image:
+   
    [[./robot_arm.png]]
+   
    Where each red sphere corresponds to a kneecap with 3 degrees of freedom allowing to animate this arm by simply changing the values of the corresponding angles (see below).
+   
    [[./robot_arm2.png]]
+   
    Add a pair of pliers similar to the one in this picture:
+   
    [[./pliers.png]]
+   
    Finally, animate it.
 ** Exercise 8 - Welcome to the future
    You already finished everything?
    Congratulation, now you can create and animate the Boston Dynamics dog robot.
    Do not forget to add some nice textures on it!
+   
    [[./bdynamics.png]]

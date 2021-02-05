@@ -17,21 +17,25 @@
         height="0.05"
         radius="1"
       >
-        <a-sphere position="0 0.4 0" radius="0.4" color="#FE4B94">
-          <a-entity
-            rotation="0 150 50"
-          >
-            <a-box
-              depth="0.3"
+	<a-sphere position="0 0.4 0" radius="0.4" color="#FE4B94">
+	  <a-entity
+	    rotation="0 150 50"
+	    animation="property: rotation; easing: easeInOutSine; dur: 1000; dir: alternate; to: 0 180 70; loop: true"
+	  >
+	    <a-box
+	      depth="0.3"
               width="0.3"
               height="2"
               position="0 1.3 0"
               color="#52E2FF"
             >
-              <a-sphere position="0 1.2 0" radius="0.4" color="#FE4B94">
-                <a-entity rotation="0 150 50">
-                  <a-box
-                    depth="0.3"
+	      <a-sphere position="0 1.2 0" radius="0.4" color="#FE4B94">
+		<a-entity
+		  rotation="0 150 50"
+		  animation="property: rotation; easing: easeInOutSine; dur: 1000; dir: alternate; to: 0 200 120; loop: true"
+		>
+		  <a-box
+		    depth="0.3"
                     width="0.3"
                     height="2"
                     position="0 1.3 0"

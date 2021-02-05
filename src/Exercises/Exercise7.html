@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-plane
+        position="0 0 -4"
+        rotation="-90 0 0"
+        width="4"
+        height="4"
+        color="#8CE3B9"
+      ></a-plane>
+      <a-cylinder
+        position="0 0.025 -4"
+        color="#FFE169"
+        height="0.05"
+        radius="1"
+      >
+        <a-sphere position="0 0.4 0" radius="0.4" color="#FE4B94">
+          <a-entity
+            rotation="0 150 50"
+          >
+            <a-box
+              depth="0.3"
+              width="0.3"
+              height="2"
+              position="0 1.3 0"
+              color="#52E2FF"
+            >
+              <a-sphere position="0 1.2 0" radius="0.4" color="#FE4B94">
+                <a-entity rotation="0 150 50">
+                  <a-box
+                    depth="0.3"
+                    width="0.3"
+                    height="2"
+                    position="0 1.3 0"
+                    color="#52E2FF"
+                  >
+                    <a-sphere position="0 1.2 0" radius="0.4" color="#FE4B94">
+                    </a-sphere>
+                  </a-box>
+                </a-entity>
+              </a-sphere>
+            </a-box>
+          </a-entity>
+        </a-sphere>
+      </a-cylinder>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>

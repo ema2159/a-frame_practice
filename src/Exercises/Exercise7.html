@@ -42,6 +42,42 @@
                     color="#52E2FF"
                   >
                     <a-sphere position="0 1.2 0" radius="0.4" color="#FE4B94">
+                      <a-box
+                        depth="0.3"
+                        width="0.1"
+                        height="0.7"
+                        position="0 0.7 0"
+                        color="#FE4B94"
+                      >
+                        <a-entity
+                          rotation="0 0 0"
+                          position="0 0.2 -0.1"
+                          animation="property: rotation; easing: easeInOutSine; dur: 1000; dir: alternate; to: -60 0 0; loop: true"
+                        >
+                          <a-box
+                            depth="0.1"
+                            width="0.1"
+                            height="0.4"
+                            position="0 0.2 0"
+                            color="#FE4B94"
+                          >
+                          </a-box>
+                        </a-entity>
+                        <a-entity
+                          rotation="0 0 0"
+                          position="0 0.2 0.1"
+                          animation="property: rotation; easing: easeInOutSine; dur: 1000; dir: alternate; to: 60 0 0; loop: true"
+                        >
+                          <a-box
+                            depth="0.1"
+                            width="0.1"
+                            height="0.4"
+                            position="0 0.2 0"
+                            color="#FE4B94"
+                          >
+                          </a-box>
+                        </a-entity>
+                      </a-box>
                     </a-sphere>
                   </a-box>
                 </a-entity>

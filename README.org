@@ -9,27 +9,37 @@
   - Go to the =src/= directory.
   - Run the =live-server= command.
 * Exercises:
-** Exercise 1
+** Exercise 1 - Simple Model
    Build a 3D model of the head of Mickey Mouse which is only composed with several a-sphere and
    basic transformations (position, scale, rotation)
-** Exercise 2
+   [[./mickey.png]]
+** Exercise 2 - Texturing
    1. Recreate the earth with a sphere associated with the following texture “earth_4096.jpg”.
    2. Place this earth above a pink plane on which it will cast a shadow.
    3. What is happening if your use a box instead a sphere?
       R/ The texture is being loaded in each of the box's faces.
-** Exercise 3
-   Add a pseudo moon as satellite of your earth (which will use the texture “moon_4096.jpg”). This
-   pseudo moon must be associated to the coordinate system of your earth. It is hierarchically dependent
-   to the earth (ie. when the earth turns on itself the moon follow this motion)
-** Exercise 4
+** Exercise 3 - Moon
+   Add a pseudo moon as satellite of your earth (which will use the texture “moon_4096.jpg”). This pseudo moon must be associated to the coordinate system of your earth. It is hierarchically dependent to the earth (ie. when the earth turns on itself the moon follow this motion)
+** Exercise 4 - Animation
    1. Now you will animate this earth by making it turn on itself.
    2. What is happing for the moon?
       R/ See point 3.
    3. Of course, your moon will also turn on itself
-** Exercise 5
+** Exercise 5 - Lighting
    Test the different lighting methods available in a-frame with the previous 3D visualization.
    R/ In this case, a spot light was utilized for simulating the light of the sun.
-** Exercise 6
-   Place you head of Mickey Mouse on the surface of your moon which turn around the earth and on
-   itself.
-
+** Exercise 6 - Mickey on the moon
+   Place you head of Mickey Mouse on the surface of your moon which turn around the earth and on itself.
+** Exercise 7 - Robot Arm
+   Build a robot arm like the one in the following image:
+   [[./robot_arm.png]]
+   Where each red sphere corresponds to a kneecap with 3 degrees of freedom allowing to animate this arm by simply changing the values of the corresponding angles (see below).
+   [[./robot_arm2.png]]
+   Add a pair of pliers similar to the one in this picture:
+   [[./pliers.png]]
+   Finally, animate it.
+** Exercise 8 - Welcome to the future
+   You already finished everything?
+   Congratulation, now you can create and animate the Boston Dynamics dog robot.
+   Do not forget to add some nice textures on it!
+   [[./bdynamics.png]]
